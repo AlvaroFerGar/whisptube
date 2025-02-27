@@ -313,7 +313,7 @@ Notes:
     parser.add_argument("--output", "-o", default="youtube_downloads", 
                         help="Output directory for videos and transcriptions (default: youtube_downloads)")
     parser.add_argument("--model", "-m", default="base", 
-                        choices=["tiny", "base", "small", "medium", "large"],  
+                        choices=["tiny", "tiny.en", "base", "base.en", "small", "small.en", "medium", "medium.en", "large", "turbo"],  
                         help="Whisper model to use (default: base) - larger models are more accurate but slower")
     parser.add_argument("--skip-download", action="store_true", 
                         help="Skip downloading videos and only transcribe existing ones")
